@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Регистрация на сайте</title>
+
+<body>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  
+  <link rel="stylesheet" href="css/style.css" type="text/css" media="all">
+  <link rel="stylesheet" href="form.css" type="text/css">
+
+</head>
+ 
+<body>
+  
+  <div class="body-content">
+    <div class="module">
+      <h1>Создать аккаунт</h1>
+      <form class="form" action="form.php" method="post" enctype="multipart/form-data" autocomplete="off">
+        <div class="alert alert-error"></div>
+        <input type="text" placeholder="Ваше имя" name="username" required />
+        <input type="email" placeholder="Email" name="email" required />
+        <input type="password" placeholder="Пароль" name="password" autocomplete="new-password" required />
+        <input type="password" placeholder="Повторить пароль" name="confirmpassword" autocomplete="new-password" required />
+        <input type="submit" value="Зарегистрироваться!" name="register" class="btn btn-block btn-primary" />
+      </form>
+    </div>
+  </div>
+  <div class="copyright wthree agileits w3layouts" id="copyright">
+		<p>&copy; 2023 PIXEL. Все права защищены</a></p>
+	</div>
+
+  <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+
+</body>
+</html>
